@@ -1348,7 +1348,7 @@ a:focus {
 .menu .megamenu.megamenu-fixed-width {
   right: auto;
   left: 0;
-  width: 640px;
+  /* width: 640px; */
 }
 .menu .megamenu ul {
   display: block;

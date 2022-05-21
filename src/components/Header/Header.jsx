@@ -398,70 +398,8 @@ const Header = () => {
                               </li>
                             </ul>
                           </div>
-                          {/* <!-- End .col-lg-6 -->*/}
-                          <div className="col-lg-6">
-                            <div className="menu-title">
-                              <a href="#">Variations 2</a>
-                            </div>
-                            <ul>
-                              <li>
-                                <a href="#">Product List Item Types</a>
-                              </li>
-                              <li>
-                                <a href="category-infinite-scroll.html">
-                                  Ajax Infinite Scroll
-                                </a>
-                              </li>
-                              <li>
-                                <a href="category-3col.html">
-                                  3 Columns Products
-                                </a>
-                              </li>
-                              <li>
-                                <a href="category-4col.html">
-                                  4 Columns Products{" "}
-                                  <span className="tip tip-new">New</span>
-                                </a>
-                              </li>
-                              <li>
-                                <a href="category-5col.html">
-                                  5 Columns Products
-                                </a>
-                              </li>
-                              <li>
-                                <a href="category-6col.html">
-                                  6 Columns Products
-                                </a>
-                              </li>
-                              <li>
-                                <a href="category-7col.html">
-                                  7 Columns Products
-                                </a>
-                              </li>
-                              <li>
-                                <a href="category-8col.html">
-                                  8 Columns Products
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                          {/* <!-- End .col-lg-6 -->*/}
                         </div>
-                        {/* <!-- End .row -->*/}
                       </div>
-                      {/* <!-- End .col-lg-8 -->*/}
-                      <div className="col-lg-4">
-                        <div className="banner">
-                          <a href="#">
-                            <img
-                              src="assets/images/menu-banner-2.jpg"
-                              alt="Menu banner"
-                            />
-                          </a>
-                        </div>
-                        {/* <!-- End .banner -->*/}
-                      </div>
-                      {/* <!-- End .col-lg-4 -->*/}
                     </div>
                   </div>
                   {/* <!-- End .megamenu -->*/}
@@ -472,117 +410,18 @@ const Header = () => {
                   </a>
                   <div className="megamenu">
                     <div className="row">
-                      <div className="col-lg-8">
-                        <div className="row">
-                          <div className="col-lg-4">
-                            <div className="menu-title">
-                              <a href="#">Variations</a>
-                            </div>
-                            <ul>
-                              <li>
-                                <a href="product.html">Horizontal Thumbnails</a>
-                              </li>
-                              <li>
-                                <a href="product-full-width.html">
-                                  Vertical Thumbnails
-                                  <span className="tip tip-hot">Hot!</span>
-                                </a>
-                              </li>
-                              <li>
-                                <a href="product.html">Inner Zoom</a>
-                              </li>
-                              <li>
-                                <a href="product-addcart-sticky.html">
-                                  Addtocart Sticky
-                                </a>
-                              </li>
-                              <li>
-                                <a href="product-sidebar-left.html">
-                                  Accordion Tabs
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                          {/* <!-- End .col-lg-4 -->*/}
-                          <div className="col-lg-4">
-                            <div className="menu-title">
-                              <a href="#">Variations</a>
-                            </div>
-                            <ul>
-                              <li>
-                                <a href="product-sticky-tab.html">
-                                  Sticky Tabs
-                                </a>
-                              </li>
-                              <li>
-                                <a href="product-simple.html">Simple Product</a>
-                              </li>
-                              <li>
-                                <a href="product-sidebar-left.html">
-                                  With Left Sidebar
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                          {/* <!-- End .col-lg-4 -->*/}
-                          <div className="col-lg-4">
-                            <div className="menu-title">
-                              <a href="#">Product Layout Types</a>
-                            </div>
-                            <ul>
-                              <li>
-                                <a href="product.html">Default Layout</a>
-                              </li>
-                              <li>
-                                <a href="product-extended-layout.html">
-                                  Extended Layout
-                                </a>
-                              </li>
-                              <li>
-                                <a href="product-full-width.html">
-                                  Full Width Layout
-                                </a>
-                              </li>
-                              <li>
-                                <a href="product-grid-layout.html">
-                                  Grid Images Layout
-                                </a>
-                              </li>
-                              <li>
-                                <a href="product-sticky-both.html">
-                                  Sticky Both Side Info
-                                  <span className="tip tip-hot">Hot!</span>
-                                </a>
-                              </li>
-                              <li>
-                                <a href="product-sticky-info.html">
-                                  Sticky Right Side Info
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                          {/* <!-- End .col-lg-4 -->*/}
+                      <div className="col-lg">
+                        <div className="menu-title">
+                          <a href="#">Variations</a>
                         </div>
-                        {/* <!-- End .row -->*/}
+                        <ul>
+                          <li>
+                            <a href="product.html">Horizontal Thumbnails</a>
+                          </li>
+                        </ul>
                       </div>
-                      {/* <!-- End .col-lg-8 -->*/}
-                      <div className="col-lg-4">
-                        <div className="banner">
-                          <a href="#">
-                            <img
-                              src="assets/images/menu-banner.jpg"
-                              alt="Menu banner"
-                              className="product-promo"
-                            />
-                          </a>
-                        </div>
-                        {/* <!-- End .banner -->*/}
-                      </div>
-                      {/* <!-- End .col-lg-4 -->*/}
                     </div>
-                    {/* <!-- End .row -->*/}
-                  </div>{" "}
-                  {/* <!-- End .megamenu --> */}
+                  </div>
                 </li>
                 <li>
                   <a href="#" className="sf-with-ul">
@@ -675,7 +514,6 @@ const Header = () => {
       </header>
       <div className="mobile-menu-overlay"></div>
       {/* <!-- End .mobil-menu-overlay --> */}
-
       <div className="mobile-menu-container">
         <div className="mobile-menu-wrapper">
           <span className="mobile-menu-close">

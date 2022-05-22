@@ -416,8 +416,8 @@ a:focus {
   opacity: 0.8;
 }
 .header-middle {
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 .logo {
   display: block;
@@ -10536,4 +10536,5 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     margin-bottom: 10rem !important;
   }
 }
+
 /*# sourceMappingURL=style.min.css.map */
